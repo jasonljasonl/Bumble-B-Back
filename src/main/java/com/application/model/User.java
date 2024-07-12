@@ -28,6 +28,6 @@ public class User {
     @Column(name = "created_at")
     private LocalDateTime createdAt;
     @OneToMany(fetch = FetchType.LAZY)
-    private List<Article> articles;
+    private List<Article> races;
 
 }
